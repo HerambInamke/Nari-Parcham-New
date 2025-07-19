@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import { Link } from "react-router-dom";
 
 const navLinks = [
@@ -53,15 +53,13 @@ const Footer = () => {
             <p className="text-gray-300 text-sm sm:text-base">
               13/70, Pakka bagh
             </p>
-            <p className="text-gray-300 text-sm sm:text-base">
-              Saharanpur, UP
-            </p>
+            <p className="text-gray-300 text-sm sm:text-base">Saharanpur, UP</p>
             <p className="text-gray-300 text-sm sm:text-base">
               parchamnari@gmail.com
             </p>
             <p className="text-gray-300 text-sm sm:text-base">
               Dr Qudsiya Anjum- 9837378699 <br />
-              Wajahat Mazahar Khan- 9058564603
+              {/* Wajahat Mazahar Khan- 9058564603 */}
             </p>
           </div>
           <div>
@@ -82,13 +80,11 @@ const Footer = () => {
           </div>
         </div>
         <div className="border-t border-primary-light mt-6 sm:mt-8 pt-6 sm:pt-8 text-center text-gray-300 text-sm sm:text-base">
-          <p>
-            © {new Date().getFullYear()} Nari Parcham. All rights reserved.
-          </p>
+          <p>© {new Date().getFullYear()} Nari Parcham. All rights reserved.</p>
         </div>
       </div>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

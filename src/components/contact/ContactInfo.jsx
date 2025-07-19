@@ -23,7 +23,7 @@ const ContactInfo = () => {
             <h3 className="font-semibold text-gray-800">Phone</h3>
             <p className="text-gray-600">
               Dr Qudsiya Anjum- 9837378699 <br />
-              Wajahat Mazahar Khan- 9058564603
+              {/* Wajahat Mazahar Khan- 9058564603 */}
             </p>
           </div>
         </div>
